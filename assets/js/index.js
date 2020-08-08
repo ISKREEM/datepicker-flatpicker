@@ -81,7 +81,7 @@ firstAsync().then(x => {
 
 async function api() {
     return $.ajax({
-        url: "http://worldclockapi.com/api/json/est/now",
+        url: "https://worldclockapi.com/api/json/est/now",
         type: "GET",
         success: function (result) {
             return result["currentDateTime"]
