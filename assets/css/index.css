@@ -1,0 +1,36 @@
+.ctr {
+  width: 100%;
+}
+
+.div2,
+.div1 {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.div2 > span {
+  margin-left: 30px;
+}
+
+.circle-black {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+}
+.container {
+  padding: 50px;
+}
+
+.event {
+  position: absolute;
+  width: px;
+  height: 10px;
+  bottom: 3px;
+  left: calc(50% - 1.5px);
+  content: " ";
+  display: block;
+  background: #3d8eb9;
+}
